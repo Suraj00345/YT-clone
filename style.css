@@ -195,7 +195,7 @@ hr {
 
 .video-container {
   width: calc(100%-250px);
-
+  height: auto;
   margin-left: 250px;
   padding: 20px;
   display: grid;
@@ -261,3 +261,4 @@ hr {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 } 
+

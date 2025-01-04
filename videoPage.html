@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>play video</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="videoCss.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="col-1">
+        <span class="material-icons menu">menu</span>
+
+        <div class="logo-img">
+          <img src="images/youtube logo.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="col-2">
+        <input type="text" class="search-bar" placeholder="Search" />
+
+        <button class="material-icons Search-btn">search</button>
+        <button class="mic material-icons">mic</button>
+      </div>
+      <div class="col-3">
+        <span class="material-icons">videocam</span>
+        <span class="material-icons" style="color: red">notifications</span>
+        <span class="material-icons">account_circle</span>
+      </div>
+    </header>
+
+    <!-- video section -->
+
+    <div class="main">
+      <div id="videoBox">
+        <div class="video-container"></div>
+
+        <div id="channel-details">
+          <div id="channel-info">
+            <!-- <div>
+              <img src="" alt="chennel Logo" />
+              <p>chennel Name</p>
+            </div>
+            <p>total subscribers</p> -->
+          </div>
+          <!-- <div id="reactions">
+            <button><i class="fa-solid fa-thumbs-up">  Like</i></button>
+            <button><i class="fa-solid fa-thumbs-down">  Dislike</i></button>
+            <button><i class="fa-solid fa-floppy-disk">  save</i></button>
+          </div> -->
+
+          <button id="subscribe">Subscribe</button>
+        </div>
+
+
+        <div id="comments">
+          <!-- <div>
+            <img src="" alt="comment-Img" />
+            <p>01-01-2025</p>
+          </div>
+          <p id="comment">first comment</p>
+          <div>
+            <span>like</span>
+            <span>dislike</span>
+            <span>Reply</span>
+          </div> -->
+        </div>
+      </div>
+
+      <div id="suggestionBox">
+        <!-- <a href="">
+          <img src="" alt="suggestion-Img" />
+          <div>
+            <p>video Title</p>
+            <p>channel Name</p>
+            <p>views</p>
+            <p>date</p>
+          </div>
+        </a> -->
+      </div>
+    </div>
+    <script src="videoPage.js"></script>
+    <script src="videoSuggestion.js"></script>
+  </body>
+</html>
